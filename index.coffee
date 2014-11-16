@@ -1,1 +1,1 @@
-index.coffee
+module.exports = exports = require('./plugins')
