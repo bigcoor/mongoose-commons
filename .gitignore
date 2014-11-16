@@ -26,3 +26,8 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+.DS_Store
+test/.DS_Store
+.idea/
+.idea/mongoose-common.iml
+.idea/watcherTasks.xml

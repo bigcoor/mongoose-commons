@@ -1,0 +1,44 @@
+{
+  "name": "mongoose-commons",
+  "description": "Mongoose common plugin executed on all Schemas.",
+  "author": "Meepo Xu <meepo@cunpai.com>",
+  "keywords": [
+    "mongoose",
+    "mongodb",
+    "plugin",
+    "timestamps",
+    "times",
+    "createdAt",
+    "updatedAt"
+  ],
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bigcoor/mongoose-commons.git"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/_mocha -u bdd -R spec -c ./test/index.js"
+  },
+  "engine": {
+    "node": ">= 0.6"
+  },
+  "dependencies": {
+    "mongoose": "^3.8.19",
+    "async": "^0.9.0",
+    "underscore": "^1.7.0",
+    "chai": "^1.10.0",
+    "should": "^4.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/bigcoor/mongoose-commons/issues"
+  },
+  "homepage": "https://github.com/bigcoor/mongoose-commons",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "~2.0.1"
+  }
+}
