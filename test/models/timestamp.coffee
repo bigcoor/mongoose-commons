@@ -3,7 +3,7 @@ should = require "should"
 mongoose = require "mongoose"
 Schema = mongoose.Schema
 
-timestamp = require "../../plugins/timestamp"
+timestamp = require "../../"
 
 TestSchema = new Schema {}
 TestSchema.plugin timestamp

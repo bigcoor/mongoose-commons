@@ -2,6 +2,6 @@
 (function() {
   var exports;
 
-  module.exports = exports = require('./plugins');
+  module.exports = exports = require('./plugins/timestamp');
 
 }).call(this);
